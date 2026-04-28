@@ -1,16 +1,64 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="stylesheet" href="additionalStyle.css" type="text/css" />
-    <title>Styling those divs</title>
-  </head>
-  <body>
-    <div>div#A</div>
-    <div>div#B</div>
-    <div>div#C</div>
-    <div>div#D</div>
-  </body>
+<head>
+  <style>
+  body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.image-box {
+  margin: 20px;
+}
+
+img {
+  border-radius: 10px;
+  filter: grayscale(30%) brightness(90%) contrast(110%);
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
+  </style>
+  <meta charset="UTF-8">
+  <title>Nature Landscapes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Nature Landscapes</h1>
+
+  <div class="image-box">
+    <img 
+      src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600" 
+      alt="Mountain landscape with lake" 
+      width="600" 
+      height="400"
+      title="Mountain Landscape">
+    <p>Photo by Unsplash – Free for commercial use</p>
+  </div>
+
+  <div class="image-box">
+    <img 
+      src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600" 
+      alt="Forest with sunlight shining through trees" 
+      width="600" 
+      height="400"
+      title="Sunlit Forest">
+    <p>Photo by Unsplash – Free for commercial use</p>
+  </div>
+
+  <div class="image-box">
+    <img 
+      src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600" 
+      alt="Ocean waves at sunset" 
+      width="600" 
+      height="400"
+      title="Ocean Sunset">
+    <p>Photo by Unsplash – Free for commercial use</p>
+  </div>
+
+</body>
 </html>
